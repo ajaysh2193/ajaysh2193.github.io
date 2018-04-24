@@ -1,6 +1,6 @@
 <<<<<<< HEAD
-# Jogendra Singh - http://jogendrasingh.me
-My Portfolio. http://jogendrasingh.me or https://imjog.github.io
+# Ajay Sharma - http://ajaysharma.ml
+My Portfolio. http://ajaysharma.ml or https://ajaysh2193.github.io
 
 ## About Me
 
