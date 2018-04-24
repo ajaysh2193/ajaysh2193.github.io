@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <!DOCTYPE html>
 <html>
 <head>
@@ -305,3 +306,504 @@ $("a").on('click', function(event) {
 <script>
 </body>
 </html>
+=======
+<<<<<<< HEAD
+---
+layout: default-home
+title: Home
+---
+<div id="hello-world">
+	<div id="typed-strings" style="display:none">
+		<p>Hi, there! ^1000 <strong>I'm Ajay.</strong> ^1200 <br> ^200<br> ^200 
+       	Bachelor of Technology graduate from <strong><a target="_blank" href="http://www.unimelb.edu.au/">MDU, India</a></strong>. ^1200 <br> ^200<br> ^200
+       	Software Engineer with <strong>expertise in Data Science technologies.</strong> ^1200 <br> ^200<br> ^200 
+       	I'm passionate about using data to </p>
+	</div>
+	<span id="typed-intro"></span><i><span id="intro-end"></span></i>
+<!-- 	<div id="skipped-intro" style="display: none">
+	<p>Hi, there!  <strong>I'm Sajal.</strong>  <br> <br>  
+       	Master of Information Technology graduate from <strong><a target="_blank" href="http://www.unimelb.edu.au/">The University of Melbourne, Australia</a></strong>.  <br> <br> 
+       	Software Engineer with <strong>expertise in Data Science technologies.</strong>  <br> <br>  
+       	I'm passionate about using data to <i>make the world a better place.</i></p>
+	</div> -->
+</div>
+
+<div id="home-menu" class="d-flex justify-content-around">
+	
+	<!-- Skills -->
+	<div class="hm-item">
+		<a id="skillsAn" href="#skillsModal">
+		<div>
+			<i class="fa fa-code fa-2x" aria-hidden="true"></i>
+		</div>
+		<span>Skills<span>
+		</a>
+	</div>
+
+	<!-- Portfolio -->
+	<div class="hm-item">
+		<a id="portAn" target="_blank" href="/portfolio">
+		<div>
+			<i class="fa fa-folder-o fa-2x open-folder" aria-hidden="true"></i>
+		</div>
+		<span>Portfolio</span>
+		</a>
+	</div>
+
+	<!-- Contact -->
+	<div class="hm-item">
+		<a id="contactAn" href="#contactModal">
+		<div>
+			<i class="fa fa-comments-o fa-2x" aria-hidden="true"></i>
+		</div>
+		<span>Contact</span>
+		</a>
+	</div>
+
+</div>
+
+
+<!-- Modal for Skills Section -->
+<div id="skillsModal">
+    <!-- THIS IS IMPORTANT! to close the modal, the class name has to match the name given on the ID  class="close-animatedModal" -->
+    <div class="hm-modal close-skillsModal"> 
+        <i class="fa fa-times fa-2x" aria-hidden="true"></i>
+    </div>   
+    
+    <div class="modal-content container content" style="display:none">
+    	<h2>Stuff I'm good at.</h2>
+    	<p>A bar chart to visualize my tech skills, and proficiency levels. Updated frequently. ;)<br>
+    	Check out the <a target="_blank" href="/about">About</a> page for an old-school overview, and <a target="_blank" href="/portfolio">Portfolio</a> to see these skills in action. </p>
+    	<div>
+    		<div id="skill-switch" class="d-flex justify-content-around" data-toggle="buttons">
+    		<label class="btn btn-primary active">
+    		<input type="radio" name="skillSelect" value="radioDS" checked>
+    			<i class="fa fa-bar-chart fa-2x" aria-hidden="true"></i><span>Data Science</span>
+  			</label>
+  			<label class="btn btn-primary">
+    		<input type="radio" name="skillSelect" value="radioSE">
+    			<i class="fa fa-cogs fa-2x" aria-hidden="true"></i><span>Software Dev</span>
+  			</label>
+    		</div>
+    	</div>
+    	<div id="skillchart-container" style="height: 60vh">
+    	</div>
+    </div>
+
+</div>
+
+
+
+
+<!-- Modal for Contact Form -->
+<div id="contactModal">
+    <div class="hm-modal close-contactModal"> 
+        <i class="fa fa-times fa-2x" aria-hidden="true"></i>
+    </div>
+            
+    <div class="modal-content container content" style="display: none">
+    	<h2>Get in touch.</h2>
+    	<p>Have work opportunities? Want to collaborate on a project? Need advice? Or maybe grab some <i class="fa fa-coffee" aria-hidden="true"></i>?<br>
+    	Just fill up the form and hit 'Submit'. I'll get back to you asap.</p>
+
+    	<p>You can also shoot an email to <a href="mailto:chataks93@gmail.com">chataks93@gmail.com</a>.</p>
+
+    	<!-- Form content -->
+    	<form action="https://formspree.io/chataks93@gmail" method="POST" data-parsley-validate>
+
+  			<div class="form-group">
+  				<label for="inputName">Name</label>
+    			<input class="form-control" type="text" id="inputName" required data-parsley-required-message="Always nice to put a name to an e-message.">
+			</div>
+
+  			<div class="form-group">
+    			<label for="inputEmail">Email address</label>
+    			<input type="email" name="_replyto" class="form-control" id="inputEmail" aria-describedby="emailHelp" required data-parsley-required-message="Communication is a two way street.">
+  			</div>
+
+  			<div class="form-group">
+  				<label for="inputSubject">Subject</label>
+    			<input class="form-control" name="_subject" type="text" id="inputSubject" required data-parsley-required-message="What were we talking about, again?">
+			</div>
+
+  			<div class="form-group">
+    			<label for="inputMessage">Message</label>
+    			<textarea name="message" class="form-control" id="inputMessage" rows="3" required data-parsley-required-message="Use all and any words known!"></textarea>
+  			</div>
+
+  			<button type="submit" class="btn btn-primary">Submit</button>
+
+		</form>
+    </div>
+</div>
+=======
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <title>Ajay Kumar Sharma - Data Scientist</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width">
+  <link rel='shortcut icon' type='image/x-icon' href='favicon.ico' />
+  <link rel="apple-touch-icon-precomposed" href="apple-touch-icon-precomposed.png">
+  <link rel="apple-touch-icon-precomposed" href="apple-touch-icon-72x72-precomposed.png">
+  <link rel="apple-touch-icon-precomposed" href="apple-touch-icon-114x114-precomposed.png">
+  <link rel="apple-touch-icon-precomposed" href="apple-touch-icon-144x144-precomposed.png">
+  <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/normalize.min.css">
+  <link rel="stylesheet" href="css/main.css">
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+  <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.1.min.js"><\/script>')</script>
+  <script src="js/vendor/jquery.hashchange.min.js"></script>
+  <script src="js/vendor/jquery.easytabs.min.js"></script>
+
+  <script src="js/main.js"></script>
+  <!--[if lt IE 9]>
+      <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+      <script>window.html5 || document.write('<script src="js/vendor/html5shiv.js"><\/script>')</script>
+      <![endif]-->
+</head>
+  <body class="bg-fixed bg-1">
+<!--[if lt IE 7]>
+    <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+    <![endif]-->
+   <div class="main-container">
+    <div class="main wrapper clearfix">
+      <!-- Header Start -->
+        <header id="header">
+            <div id="logo">
+                <h2>
+                    Ajay Kumar Sharma
+                </h2>
+                <h4>
+                    Data Science / AI Enthusiast
+                </h4>
+            </div>
+        </header>
+        <!-- Header End -->
+        <!-- Main Tab Container -->
+        <div id="tab-container" class="tab-container">
+          <!-- Tab List -->
+            <ul class='etabs'>
+                <li class='tab' id="tab-about">
+                  <a href="#about"><i class="icon-user"></i><span> About Me</span></a>
+                </li>
+                <li class='tab'>
+                  <a href="#blogs"><i class="icon-file-text"></i><span> Blogs</span></a>
+                </li>
+                <li class='tab'>
+                  <a href="#projects"><i class="icon-heart"></i><span> Projects</span></a>
+                </li>
+                <li class='tab'>
+                  <a href="#contact"><i class="icon-envelope"></i><span> Contact</span></a>
+                </li>
+            </ul>
+          <!-- End Tab List -->
+            <div id="tab-data-wrap">
+              <!-- About Tab Data -->
+                <div id="about">
+                    <section class="clearfix">
+                        <div class="g2">
+                            <div class="photo">
+                        
+                                <img src="https://media.licdn.com/mpr/mpr/shrinknp_400_400/AAEAAQAAAAAAAAx5AAAAJDZlMGNmYTkzLWI5OWItNDRiZC05MzNlLTNiMTcyYjMxMjg4Mg.jpg" alt="Ajay">
+                            </div>
+                            <div class="info">
+                                <h2>
+                                    Ajay Kumar Sharma
+                                </h2>
+                                <h4>
+                                    Data Science / AI Enthusiast
+                                </h4>
+                                <p>
+                                    Hey!! Meet this DS Enthusiast who has prior experience in research in signal processing and now working as Data Scientist. This Fella is not a the brightest but a really eager and quick learner. Believes in hard work and he really loves to play sports.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="g1">
+                            <div class="main-links sidebar">
+                                <ul>
+                                    
+                                    <li>
+                                        <a href="#blogs">My Blogs</a>
+                                    </li>
+									<li>
+                                        <a href="#projects">My Projects</a>
+                                    </li>
+					
+				    <li>
+                                        <a href="#resume">View My Resume</a>
+                                    </li>
+					
+                                    <li>
+                                        <a href="#contact">Hire me for your next project</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="break"></div>
+                        <div class="contact-info">
+                          <div class="g1">
+                            <div class="item-box clearfix">
+                              <i class="icon-envelope"></i>
+                              <div class="item-data">
+                                <h3><a href="mailto:chataks93@gmail.com">chataks93@gmail.com</a></h3>
+                                <p>Email Address</p>
+                              </div>
+                            </div>
+                          </div>
+
+                       
+                          <div class="g1">
+                            <div class="item-box clearfix">
+                              <i class="icon-twitter"></i>
+                              <div class="item-data">
+                                <h3><a href="https://twitter.com/Ajay_8544">@Ajay_8544</a></h3>
+                                <p>Twitter Handle</p>
+                              </div>
+                            </div>
+                          </div>
+                          
+                          
+                          <div class="g1">
+                            <div class="item-box clearfix">
+                              <i class="icon-google-plus"></i>
+                              <div class="item-data">
+                                <h3><a href="https://plus.google.com/u/0/104378728194237960511">Ajay Sharma</a></h3>
+                                <p>Google+ Profile</p>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                    </section><!-- content -->
+                </div>
+              <!-- End About Tab Data -->
+              <!-- Resume Tab Data -->
+                <div id="resume">
+                    <section class="clearfix">
+                        <div class="g2">
+                            <h3>
+                                Work Experience
+                            </h3>
+                            <ul class="no-list work">
+                                <li>
+                                    <h5>
+                                        Summer Research Intern
+                                    </h5>
+                                    <span class="label label-info">June'16-July'16</span>
+                                    <span class="label label-info">Central Electronics Limited, Sahibabad</span>
+                                    <p>
+                                        • Developed an efficient method for Audio watermarking using the algorithm
+                                        DWT-DCT.
+                                        • Incorporated error correction encoding techniques(Cyclic codes) Arnold
+                                        transform based Image scrambling for Watermark.
+                                    </p>
+                                </li>
+                                <li>
+                                    <h5>
+                                        Software Development Intern - Java
+                                    </h5>
+                                    <span class="label label-info">August'16-September'16</span>
+                                    <span class="label label-info">Xavient Information System, Noida</span>
+                                    <p>
+                                        • Created Selenium Scrapers to scrape online Net banking Account Details of
+                                        User.
+                                        • Developed a dynamic website using JSP and MySql to store and access employee details .
+                                    </p>
+                                </li>
+                                <li>
+                                    <h5>
+                                        Big Data Analytics Intern
+                                    </h5><span class="label label-info">Jan'17-June'17</span>
+                                    </h5><span class="label label-info">Xavient Information System, Noida</span>
+                                    <p>
+                                        • Wrote Scrappers to fetch detils like polygon co-ordinates,Rent information from 
+                                         Property Sites.
+                                        • Twitter Sentiment Analysis using Spark Mllib.
+                                    </p>
+                                </li>
+                               
+                            </ul>
+                            <h3>
+                                Education
+                            </h3>
+                            <ul class="no-list work">
+                                <li>
+                                    <h5>
+                                        DPG Institute of Technology & Management, Gurgaon
+                                    </h5><span class="label label-success">2013-2017</span>
+                                    <p>
+                                        Completed by Bachelor's Degree in Computer Science Engineering from DPGITM with 7.55 GPA.
+                                    </p>
+                                </li>
+                                <li>
+                                    <h5>
+                                        S.S.L.T. Gujarat Sr. Sec. School, Delhi
+                                    </h5><span class="label label-warning">2009-2011</span>
+                                    <p>
+                                        Intermediate School completed from SSLT Gujarat Sr. Sec. School with 78.6%.
+                                    </p>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="g1">
+                            <div class="sidebar">
+                                <h3>
+                                    Skills
+                                </h3>
+                                <h5>
+                                    Machine Learning
+                                </h5>
+                                <div class="meter emerald">
+                                    <span style="width: 90%"><span>Linear Regression</span></span>
+                                </div>
+                                <div class="meter carrot">
+                                    <span style="width: 90%"><span>Logistic Regression</span></span>
+                                </div>
+                                <div class="meter wisteria">
+                                    <span style="width: 70%"><span>SVM</span></span>
+                                </div>
+                                <div class="meter sunflower">
+                                    <span style="width: 80%"><span>Random Forest</span></span>
+                                </div>
+
+                               <div class="meter emerald">
+                                    <span style="width: 60%"><span>Clustering</span></span>
+                                </div>
+
+                                <div class="meter carrot">
+                                    <span style="width: 70%"><span>Recommendation Systems</span></span>
+                                </div>
+
+                                <div class="break"></div>
+                                <h5>
+                                    Deep Learning
+                                </h5>
+                                <div class="meter emerald">
+                                    <span style="width: 90%"><span>Convolutional Neural Network</span></span>
+                                </div>
+                               
+                                <div class="break"></div>
+                                <h5>
+                                    Programming Language
+                                </h5>
+                               <div class="meter carrot">
+                                    <span style="width: 90%"><span>Python</span></span>
+                                </div>
+                                <div class="meter wisteria">
+                                    <span style="width: 70%"><span>Java</span></span>
+                                </div>
+
+                                <h5>
+                                    Libraries
+                                </h5>
+                                <div class="meter emerald">
+                                    <span style="width: 90.0%"><span>Pandas</span></span>
+                                </div>
+                                <div class="meter carrot">
+                                    <span style="width: 90%"><span>Keras</span></span>
+                                </div>
+                                <div class="meter wisteria">
+                                    <span style="width: 70%"><span>Numpy</span></span>
+                                </div>
+
+                                <div class="meter sunflower">
+                                    <span style="width: 80%"><span>Scikit</span></span>
+                                </div>
+
+                                <div class="meter sunflower">
+                                    <span style="width: 50%"><span>Scipy</span></span>
+                                </div>
+                               
+                            </div>
+                        </div>
+                    </section>
+                </div>
+              <!-- End Resume Tab Data -->
+              <!-- Portfolio Tab Data -->
+                <div id="portfolio">
+                    <section class="clearfix">
+                    
+                        <div class="g1">
+                            <div class="image">
+                                <img src="https://dummyimage.com/600x400/000/fff&text=LinkedIN">
+                                <div class="image-overlay">
+                                    <div class="image-link">
+                                        <a href="https://plus.google.com/u/0/photos/104378728194237960511/albums/profile/6385907914252374594?iso=false" class="btn">Full View</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="g1">
+                            <div class="image">
+                                <img src="https://dummyimage.com/600x400/000/fff&text=GIT" alt="">
+                                <div class="image-overlay">
+                                    <div class="image-link">
+                                        <a href="https://github.com/ajaysh2193" class="btn">Full View</a>
+                                    </div>
+                                </div>
+                            </div>
+                        
+                       
+                        
+                        
+                    </section>
+                </div>
+              <!-- End Portfolio Data -->
+              <!-- Contact Tab Data -->
+                <div id="contact">
+                    <section class="clearfix">
+                       <div class="g1">
+                         <div class="sny-icon-box">
+                           <div class="sny-icon">
+                              <i class="icon-globe"></i>
+                            </div>
+                            <div class="sny-icon-content">
+                              <h4>My Address</h4>
+                              <p>New Delhi, India</p>
+                            </div>
+                         </div>
+                       </div>
+                       <div class="g1">
+                         <div class="sny-icon-box">
+                           <div class="sny-icon">
+                              <i class="icon-phone"></i>
+                            </div>
+                            <div class="sny-icon-content">
+                              <h4>Mobile Number</h4>
+                              <p>(+91)-7531-8959-77<br/>828-555-00-68</p>
+                            </div>
+                         </div>
+                       </div>
+                       <div class="g1">
+                         <div class="sny-icon-box">
+                           <div class="sny-icon">
+                              <i class="icon-user"></i>
+                            </div>
+                            <div class="sny-icon-content">
+                              <h4>About Me</h4>
+                              <p>I love to work and it will be great if I could be any help.</p>
+                            </div>
+                         </div>
+                       </div>
+                       <div class="break"></div>
+                       
+                    </section>
+                </div>
+              <!-- End Contact Data -->
+            </div>
+        </div>
+    </div><!-- #main -->
+</div><!-- #main-container -->
+
+
+
+</body>
+</html>
+>>>>>>> 0c960791ae61f3681e942a34975cf87fd7595476
+>>>>>>> 84f1f0ca7fa32f1d3a98c67414e975e6119e02e4
