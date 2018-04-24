@@ -5,12 +5,12 @@
 permalink:           /blog/:categories/:year/:month/:day/:title.html
 
 # Setup
-title:               Sajal Sharma
+title:               Ajay Sharma
 tagline:             'Data Scientist and Software Engineer.'
 
 # description:         'A reserved <a href="http://jekyllrb.com" target="_blank">Jekyll</a> theme that places the utmost gravity on content with a hidden drawer. Made by <a href="https://twitter.com/mdo" target="_blank">@mdo</a>.'
-description:         'The internet home of Sajal Sharma. Data Scientist. Software Engineer. Amateur Philosopher.'
-url:                 http://www.sajalsharma.com
+description:         'The internet home of Ajay Sharma. Data Scientist. Software Engineer. Amateur Philosopher.'
+url:                 http://www.ajaysh2193.github.io/
 baseurl:             ''
 blogurl:             '/blog'
 paginate:            5
@@ -20,9 +20,9 @@ paginate_path:       'blog/page:num/'
 
 # About/contact
 author:
-  name:              Sajal Sharma
-  url:               http://www.sajalsharma.com
-  email:             contact@sajalsharma.com
+  name:              Ajay Sharma
+  url:               http://www.ajaysh2193.gtihub.io
+  email:             chataks93@gmail.com
 
 # Custom vars
 version:             1.0.1
