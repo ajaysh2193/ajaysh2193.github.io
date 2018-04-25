@@ -1,2 +1,2 @@
-# Ajay Sharma - http://ajaysharma.ml
-My Portfolio : http://ajaysharma.ml or https://ajaysh2193.github.io
+# Ajay Sharma - https://ajaysharma.ml
+My Portfolio : https://ajaysharma.ml or https://ajaysharma.github.io
